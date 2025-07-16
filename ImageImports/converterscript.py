@@ -38,3 +38,10 @@ else:
     else:
         print("Original files retained.")
 
+    print("Update site content now? (y/n)")
+    update_choice = input().strip().lower()
+    if update_choice == 'y':
+        print("Site content update initiated.")
+        xx
+    else:
+        print("Site content update skipped.")
