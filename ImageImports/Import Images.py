@@ -8,6 +8,7 @@ def getVenv():
         python_exe = os.path.join("venv", "Scripts", "python.exe")
     else:
         python_exe = os.path.join("venv", "bin", "python")
+    return python_exe
 
 
 def main():

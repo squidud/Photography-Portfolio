@@ -42,6 +42,6 @@ else:
     update_choice = input().strip().lower()
     if update_choice == 'y':
         print("Site content update initiated.")
-        xx
+        os.system(f'python3 "{os.path.join(src_dir, "siteupdater.py")}"')
     else:
         print("Site content update skipped.")
