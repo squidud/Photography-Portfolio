@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header menu-->
+    <div class="header">
+        <nav>
+            <div class="header-content">
+                <img src="signature.png" alt="Logo" class="logo">
+                <div class="header-buttons">
+                    <a href="index.html" class="button">Home</a></li>
+                    <a href="gallery.html" class="button">Gallery</a></li>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+     <main id="content">
+        <div class="section">
+            <img src="ABOUT.jpg">
+            <div>
+                <div style="font-weight:200; font-size:3.9vw;">Matthew Reichard</div>
+                <div style="font-weight:200; font-size:3.9vw;">Matthew Reichard</div>
+                <div style="font-weight:200; font-size:3.9vw;">Matthew Reichard</div>
+                <div style="font-weight:400; font-size:3.9vw;">Matthew Reichard</div>
+                <div style="font-weight:200; font-size:3.9vw;">Matthew Reichard</div>
+            </div>
+        </div>
+        <div style="margin:8%;">
+            <div style="font-weight:200; font-size:3.9vw;">Street · Studio · Landscape</div>
+            <div style="font-weight:200; font-size:2.9vw;">Chicago Illinois</div><br>
+            <div style="font-weight:200; font-size:2.0vw;">Contact: <a style="font-weight: 100;">squid05@hotmail.com</a></div>
+        </div>
+     </main>
+</body>
+
+<script>
+    const allImages = document.images; // This is a live HTMLCollection
+    for (let i = 0; i < allImages.length; i++) {
+        allImages[i].onload = function() {
+            allImages[i].classList.add('loaded');
+            console.log('Image loaded!');
+        };
+    }
+</script>
+</html>
