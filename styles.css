@@ -39,7 +39,7 @@ body {
 
 .homebanner {
     width: 100%;
-    background: rgba(255, 255, 255, 0.454);
+    background: rgba(255, 255, 255, 0.831);
     backdrop-filter: blur(10px);
     margin: auto;
     text-align: center;
@@ -101,7 +101,7 @@ body {
 }
 
 .homepageimage {
-  background-image: url('Images/20240325025008_IMG_2840.webp');
+  background-image: url('Images/IMG_8670.webp');
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
