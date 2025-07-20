@@ -60,10 +60,10 @@ else:
     else:
         print("Original files retained.")
 
-    print("Update site content now? (y/n)")
+    print("Run image order GUI to reorder images? (y/n)")
     update_choice = input().strip().lower()
     if update_choice == 'y':
         print("Site content update initiated.")
-        os.system(f'python3 "{os.path.join(src_dir, "siteupdater.py")}"')
+        os.system(f'python3 "{os.path.join(src_dir, "changeorder.py")}"')
     else:
-        print("Site content update skipped.")
+        print("Site content update and order skipped. You can run the GUI later to reorder images.")

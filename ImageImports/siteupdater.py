@@ -19,7 +19,17 @@ random.shuffle(webp_images)
 html_content = ""
 
 print("Adding images...")
-for image in webp_images:
+
+#converts order.txt to a list of image paths
+order_file = os.path.join(webp_dir, 'order.txt')
+ordered_images = []
+if os.path.exists(order_file):
+    with open(order_file, 'r') as f:
+        ordered_images = [line.strip() for line in f.readlines() if line.strip()]
+else:
+    ordered_images = []
+
+for image in ordered_images:
     html_content += f'<div class="image-container">\n'
     html_content += f'    <a href="Images/{os.path.basename(image)}"><img src="Images/Thumbs/{os.path.basename(image)}" alt="{os.path.basename(image)}" class="image"></a>\n'
     html_content += f'</div>\n'
