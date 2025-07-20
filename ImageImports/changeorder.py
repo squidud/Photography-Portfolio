@@ -8,13 +8,7 @@ import glob
 src_dir = os.path.dirname(os.path.abspath(__file__))
 dst_dir = os.path.abspath(os.path.join(src_dir, '../Images'))
 webp_images = glob.glob(os.path.join(dst_dir, '*.webp'))
-ordered_images = []
-
-
-#TODO: read current order file, transfer to list, for each in images in the folder, if in order file, nothing,
-    #if not, add to new photos list. After, listfile + new photos = new default order
-    #have converterscript generate html based on ordered list file rather than globbing
-    
+ordered_images = []    
 
 class ImageReorderApp(QListWidget):
     def __init__(self, image_paths):
