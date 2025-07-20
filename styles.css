@@ -11,6 +11,12 @@ body {
     overflow: hidden; /* needed to clip the zoomed image */
 }
 
+.viewer {
+  max-height:80vh;
+  max-width:80%;
+  margin-bottom: 2.5px;
+}
+
 .image-container img {
     width: 100%;
     height: 100%;

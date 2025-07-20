@@ -31,7 +31,7 @@ else:
 
 for image in ordered_images:
     html_content += f'<div class="image-container">\n'
-    html_content += f'    <a href="Images/{os.path.basename(image)}"><img src="Images/Thumbs/{os.path.basename(image)}" alt="{os.path.basename(image)}" class="image"></a>\n'
+    html_content += f'    <a href="viewer.html?img=Images/{os.path.basename(image)}"><img src="Images/Thumbs/{os.path.basename(image)}" alt="{os.path.basename(image)}" class="image"></a>\n'
     html_content += f'</div>\n'
 
 # store template HTML in variable
