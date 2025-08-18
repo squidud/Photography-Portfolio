@@ -2,10 +2,11 @@
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_3923.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8670.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8692.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03111.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC00286.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_3958.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20230702112603_IMG_8136.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC00130.webp
-/Users/matthewreichard/git/Photography-Portfolio/Images/DSC00286.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/PICT0379.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240725231033_IMG_3792.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_3811.webp
@@ -20,12 +21,11 @@
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC02527.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC00131.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8694.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/20240601005934_IMG_3522.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC00170.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC00205.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240625023451_IMG_3616.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8758.webp
-/Users/matthewreichard/git/Photography-Portfolio/Images/20240601005934_IMG_3522.webp
-/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03111.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8781.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8847.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC01056 (1).webp
