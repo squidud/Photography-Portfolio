@@ -35,7 +35,8 @@ for image in ordered_images:
     html_content += f'</div>\n'
 
 # store template HTML in variable
-with open('template.html', 'r') as template_file:
+template_path = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../template.html'))
+with open(template_path, 'r') as template_file:
     template_html = template_file.read()
 
 print("Combining with template...")
@@ -43,7 +44,8 @@ print("Combining with template...")
 gallery_html = template_html.replace('<!--PLACEHOLDER-->', html_content)
 
 # write the final HTML to gallery.html
-with open('gallery.html', 'w') as gallery_file:
+gallery_path = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../gallery.html'))
+with open(gallery_path, 'w') as gallery_file:
     gallery_file.write(gallery_html)
 
 print("done")
