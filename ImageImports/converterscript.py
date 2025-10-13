@@ -14,6 +14,13 @@ jpeg_images = glob.glob(os.path.join(src_dir, '*.jpeg'))
 newImages = jpg_images + jpeg_images
 if not newImages:
     print("No JPG or JPEG images found to process.")
+    print("Run image order GUI to reorder images? (y/n)")
+    update_choice = input().strip().lower()
+    if update_choice == 'y':
+        print("Opening image reorder GUI...")
+        os.system(f'python3 "{os.path.join(src_dir, "changeorder.py")}"')
+    else:
+        print("Exiting.")
 else:
     for image in newImages:
         print(f"Processing {os.path.basename(image)}...")

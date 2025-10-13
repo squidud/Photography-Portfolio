@@ -14,6 +14,7 @@
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_8657.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240325023951_IMG_2827.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC01957.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03340.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC00081.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240725230736_IMG_3790 (1).webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/PICT0421.webp
@@ -79,6 +80,7 @@
 /Users/matthewreichard/git/Photography-Portfolio/Images/AurielSmoking.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240724031806_IMG_3721 (1).webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20240324102412_IMG_2788.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03283.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/20230711204300_IMG_8196.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC01885.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/IMG_4011.webp
@@ -88,3 +90,5 @@
 /Users/matthewreichard/git/Photography-Portfolio/Images/PICT0365 (1).webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC03091.webp
 /Users/matthewreichard/git/Photography-Portfolio/Images/DSC03132.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03355.webp
+/Users/matthewreichard/git/Photography-Portfolio/Images/DSC03230.webp
